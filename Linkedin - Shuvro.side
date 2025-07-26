@@ -1,0 +1,1033 @@
+{
+  "id": "d357e536-0a91-4c50-a6ea-7c7e631b9fdc",
+  "version": "2.0",
+  "name": "Linkedin",
+  "url": "https://www.linkedin.com/in/sazib-ahmed/recent-activity/all/",
+  "tests": [{
+    "id": "1f45b842-b65f-43ee-8324-9f2b59d0636d",
+    "name": "Connection Request Send ",
+    "commands": [{
+      "id": "00890075-132c-4874-8c5b-fbf7f7eb0a94",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7afb47f-e46f-4d19-9ee3-d23d29fd1971",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "440c3535-f0e5-4671-a07d-4b09b9306667",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Network",
+      "targets": [
+        ["linkText=My Network", "linkText"],
+        ["css=.global-nav__primary-item:nth-child(2) > .app-aware-link", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/mynetwork/?')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Network')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c53a906e-8eeb-4486-bd05-fa92e3a0f22e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=My Network",
+      "targets": [
+        ["linkText=My Network", "linkText"],
+        ["css=.global-nav__primary-item:nth-child(2) > .app-aware-link", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/mynetwork/?')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Network')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df233c6f-7ee9-475d-9a27-715bbfaf1eec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.global-nav__primary-item:nth-child(2) .t-12",
+      "targets": [
+        ["css=.global-nav__primary-item:nth-child(2) .t-12", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Network')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "856c84d6-6e1f-405a-8dd5-2364573ce589",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.global-nav__primary-item:nth-child(2) .t-12",
+      "targets": [
+        ["css=.global-nav__primary-item:nth-child(2) .t-12", "css:finder"],
+        ["xpath=//header[@id='global-nav']/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Network')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "199acc15-b340-43c7-8c23-aa1afc4af3e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.connect-button",
+      "targets": [
+        ["css=.connect-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[132]", "xpath:attributes"],
+        ["xpath=//div[@id='ember678']/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div/div/div/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5377c3ae-12d0-4e4d-b202-62ff9053d5dc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.connect-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abf0a90d-2c50-4f4b-81cd-e055536cb2c1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.connect-button",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "604b7a2f-61b4-4298-8ca2-72d6b0d6d856",
+    "name": "Follow People",
+    "commands": [{
+      "id": "ea6518a2-093c-42a0-9e85-78e4ea16ee3b",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f78d4c5-e05e-4534-9c14-8f8d35fd90a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5b16370-f80f-4a5d-862a-c14c7fd03424",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7acde7c-aa21-406b-8a27-3af7fbb1b008",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "md sazib ahmed"
+    }, {
+      "id": "c66e84df-e91c-49b1-899d-02108ad2ac81",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d32cec6a-5518-49e5-8775-ae6f6d7d4cd5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.search-reusables__primary-filter:nth-child(2) > .artdeco-pill",
+      "targets": [
+        ["css=.search-reusables__primary-filter:nth-child(2) > .artdeco-pill", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Posts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79ade3e9-66dd-423d-9f3f-40e0c0d7ca78",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember342",
+      "targets": [
+        ["id=ember342", "id"],
+        ["css=#ember342", "css:finder"],
+        ["xpath=//img[@alt='MD. SAZIB AHMED']", "xpath:img"],
+        ["xpath=//img[@id='ember342']", "xpath:attributes"],
+        ["xpath=//div[@id='jNFJfDIIRmibXVJCth+D6w==']/div/ul/li/div/a/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a742a54a-0737-4ea3-9379-f61f08439c82",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.search-nec__hero-kcard-v2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "711fffbd-cdc5-4f5b-9149-107474ba2c0f",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.search-nec__hero-kcard-v2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b84f1b57-68c3-48ef-ab9e-4c7753975182",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember414",
+      "targets": [
+        ["id=ember414", "id"],
+        ["css=#ember414", "css:finder"],
+        ["xpath=//button[@id='ember414']", "xpath:attributes"],
+        ["xpath=//div[@id='4lNH8keATLePCcvsmtcwzw==']/div/ul[2]/li/div/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Follow')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7bbf8ee0-f837-4b34-8d87-1852e320b7a6",
+    "name": "Unfollow People",
+    "commands": [{
+      "id": "2fc06c82-37a7-4d7a-8835-db66b816cf13",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7984a299-c30d-4708-baf0-504d63b26984",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b79d09a9-2aed-4658-8fe5-e51527dc6107",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "md sazib ahmed"
+    }, {
+      "id": "c6e70224-3a9e-400e-8090-1d75b1160359",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "de54b226-8ad9-47d5-818d-d5f51c8e60a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) > .search-navigation-panel__button",
+      "targets": [
+        ["css=li:nth-child(2) > .search-navigation-panel__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//section[@id='ember325']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//section/ul/li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded3d31d-2b8d-4c85-9816-5f1248ba440a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(2) > .search-navigation-panel__button",
+      "targets": [
+        ["css=li:nth-child(2) > .search-navigation-panel__button", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//section[@id='ember325']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//section/ul/li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8013d5-8c2a-47b3-83fd-53bcbf355fd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.align-items-center > .image-text-lockup__text",
+      "targets": [
+        ["css=.align-items-center > .image-text-lockup__text", "css:finder"],
+        ["xpath=//div[@id='wYvMUtgrQeKebU5+g+7IDA==']/div/ul/li/div/a/div/div[2]/div[2]/div/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View full profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03cbd743-f3d4-4361-a334-e95b42dc0c5c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,83.33333587646484)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9429c38-33f0-4d44-a9ec-6e1154d2154f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember475 > span",
+      "targets": [
+        ["css=#ember475 > span", "css:finder"],
+        ["xpath=//button[@id='ember475']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af249c61-48e9-4866-89d2-e73942534e70",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember479 > .display-flex",
+      "targets": [
+        ["css=#ember479 > .display-flex", "css:finder"],
+        ["xpath=//div[@id='ember479']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c63e0f19-2a10-475d-99a5-a028a1715834",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember642",
+      "targets": [
+        ["id=ember642", "id"],
+        ["css=#ember642", "css:finder"],
+        ["xpath=//button[@id='ember642']", "xpath:attributes"],
+        ["xpath=//div[@id='ember640']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Unfollow')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05b4d541-e9cf-4106-840b-0172894aaccd",
+    "name": "Message Send",
+    "commands": [{
+      "id": "9ac0f50b-43a6-4623-843a-8e3be5bca29b",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a890ea5-15ee-4369-905a-7426f60bad43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6867bdf-4592-4380-8a55-854fd14eeb11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-nav__primary-item:nth-child(4) .mercado-match",
+      "targets": [
+        ["css=.global-nav__primary-item:nth-child(4) .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f299b5a3-8b88-414a-b713-1854635df57c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember271 .msg-conversation-card__message-snippet",
+      "targets": [
+        ["css=#ember271 .msg-conversation-card__message-snippet", "css:finder"],
+        ["xpath=//a[@id='ember271']/div[2]/div/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'You sent a post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a9f3fae-e12f-439e-aad8-fa3678d06823",
+      "comment": "",
+      "command": "click",
+      "target": "css=.msg-form__contenteditable",
+      "targets": [
+        ["css=.msg-form__contenteditable", "css:finder"],
+        ["xpath=//form[@id='msg-form-ember288']/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd1aa75-b2ae-4abc-9508-2e49662b8453",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.msg-form__contenteditable",
+      "targets": [
+        ["css=.msg-form__contenteditable", "css:finder"],
+        ["xpath=//form[@id='msg-form-ember288']/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Hi</p>"
+    }, {
+      "id": "cad8d4e7-8884-4f91-a593-cf8fe59fad57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.msg-form__send-button",
+      "targets": [
+        ["css=.msg-form__send-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='msg-form-ember288']/footer/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a1f740c-d2e7-45bc-a548-a86d58828891",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.msg-form__send-button",
+      "targets": [
+        ["css=.msg-form__send-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='msg-form-ember288']/footer/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "429e6eb4-4a40-4d6c-a26c-65b61df23024",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.msg-form__send-button",
+      "targets": [
+        ["css=.msg-form__send-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='msg-form-ember288']/footer/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3fc343-d56d-4715-b441-3f7347dd58a5",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.msg-form__contenteditable",
+      "targets": [
+        ["css=.msg-form__contenteditable", "css:finder"],
+        ["xpath=//form[@id='msg-form-ember288']/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "<p><br></p>"
+    }]
+  }, {
+    "id": "78bec84d-719a-4455-be08-608a359f1737",
+    "name": "Connection Request Ignore",
+    "commands": [{
+      "id": "8a9cbfce-556e-49cc-992e-cc078fa2a4f6",
+      "comment": "",
+      "command": "open",
+      "target": "/feed/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "937f68f5-5431-443c-a056-ed5a0f2d1102",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32b2b269-2f1e-4a64-b276-2132d0cc82f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-nav__primary-item:nth-child(2) .mercado-match",
+      "targets": [
+        ["css=.global-nav__primary-item:nth-child(2) .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcba19d4-17fe-4c26-a53b-f471f2005107",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.global-nav__primary-link--active .mercado-match",
+      "targets": [
+        ["css=.global-nav__primary-link--active .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "feca0736-1410-475e-8b1b-d96f45c52432",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.global-nav__primary-link--active .mercado-match",
+      "targets": [
+        ["css=.global-nav__primary-link--active .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "71c55c05-5f2d-436d-abef-8d75a24488cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember263 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember263 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember263']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ignore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b00fb7c1-a3f6-4282-9d4c-955b2d7c50ff",
+    "name": "Post Edit",
+    "commands": [{
+      "id": "8be4f4e8-df76-4e55-8120-5079eda89c2f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.linkedin.com/in/sudiptakumar/recent-activity/all/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0f8c6cf-41a0-494d-847d-5f1f9904d385",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4a699a1-364a-4c78-a58f-716cc509569d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember70 .mercado-match",
+      "targets": [
+        ["css=#ember70 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df1cf92b-e200-493a-b62e-cb2a8fb1038a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ember70 .mercado-match",
+      "targets": [
+        ["css=#ember70 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b101caa-ef75-402a-b0a8-ee94979351ac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ember70 .mercado-match",
+      "targets": [
+        ["css=#ember70 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0715bbdb-6faf-454d-8126-8c309d50922d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ember70 .mercado-match",
+      "targets": [
+        ["css=#ember70 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0300f1e3-731a-43ca-825b-2e1e14fc35c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember99 .feed-shared-control-menu__headline",
+      "targets": [
+        ["css=#ember99 .feed-shared-control-menu__headline", "css:finder"],
+        ["xpath=//div[@id='ember99']/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//li[5]/div/div[2]/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Edit post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "053d5c3e-3dad-4c95-ab69-a7acab5fdc67",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.ql-editor",
+      "targets": [
+        ["css=.ql-editor", "css:finder"],
+        ["xpath=//div[@id='ember126']/div/div[2]/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>This is a test for Selenium in Software Quality and Testing ! Edited Post 1</p>"
+    }, {
+      "id": "f55b6324-386f-4092-984b-016b3eeb9216",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember128 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember128 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember128']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5316e01c-8670-4437-b670-a70ef998803b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ember128 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember128 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember128']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52759923-5e09-4069-a5ba-e81e01760ec7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ember128 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember128 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember128']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fbf11149-1221-4b7c-935d-465591459488",
+    "name": "Post Delete",
+    "commands": [{
+      "id": "94e8ac4f-69ee-47bf-8060-d33f28785d16",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.linkedin.com/in/sudiptakumar/recent-activity/all/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b947faa-2d86-4d9f-bc90-5c52592e2265",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63d38ad5-84f2-4777-816c-0cf2e243d9d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember70 .mercado-match",
+      "targets": [
+        ["css=#ember70 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c990f93a-a8a1-435e-8210-25160bab756e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ember70 .mercado-match",
+      "targets": [
+        ["css=#ember70 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9db110f7-b81e-4a04-8787-961fb1d5db4a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ember70 .mercado-match",
+      "targets": [
+        ["css=#ember70 .mercado-match", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad40e19f-1204-4925-baaa-5bc30801fa6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember100 .feed-shared-control-menu__headline",
+      "targets": [
+        ["css=#ember100 .feed-shared-control-menu__headline", "css:finder"],
+        ["xpath=//div[@id='ember100']/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//li[6]/div/div[2]/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Delete post')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "092f971e-d008-4664-a978-e97e2339f161",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feed-components-shared-decision-modal__confirm-button",
+      "targets": [
+        ["css=.feed-components-shared-decision-modal__confirm-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='ember108']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "26bb92ab-144b-4dbc-9601-fce6f46db6dc",
+    "name": "Comment Edit",
+    "commands": [{
+      "id": "771f64a8-ff53-4982-a54b-0803197dd044",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.linkedin.com/feed/update/urn:li:activity:7093918007592169472/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "029da6fc-9784-44ff-b8e7-8ca2887d40c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb447c92-8f32-4ca4-a52c-d9fabe9b7bcf",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember96",
+      "targets": [
+        ["id=ember96", "id"],
+        ["css=#ember96", "css:finder"],
+        ["xpath=//div[@id='ember96']", "xpath:attributes"],
+        ["xpath=//div[@id='ember94']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae66d976-74bb-4264-8998-9341e4637a97",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember97 > .comment-options-dropdown__trigger-icon",
+      "targets": [
+        ["css=#ember97 > .comment-options-dropdown__trigger-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "59b721d1-8a6d-44ae-b1b2-7e497e75b0e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember150",
+      "targets": [
+        ["id=ember150", "id"],
+        ["css=#ember150", "css:finder"],
+        ["xpath=//div[@id='ember150']", "xpath:attributes"],
+        ["xpath=//div[@id='ember98']/div/ul/li[2]/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69942d5f-2d96-4c31-bead-6c397e2e16b4",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.comments-comment-box__form > .comments-comment-box-comment__text-editor .ql-editor",
+      "targets": [
+        ["css=.comments-comment-box__form > .comments-comment-box-comment__text-editor .ql-editor", "css:finder"],
+        ["xpath=//article[@id='ember86']/div[2]/div/form/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<p>Good! !!!</p>"
+    }, {
+      "id": "adb36d3c-b31d-42d2-9f3f-7d6942b45f61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.comments-comment-edit__save-button",
+      "targets": [
+        ["css=.comments-comment-edit__save-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//article[@id='ember86']/div[2]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Changes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c5776354-40da-4093-802c-dae3ffce462e",
+    "name": "Comment Delete",
+    "commands": [{
+      "id": "780220b5-bd93-4df2-9935-eb69e8af35d2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.linkedin.com/feed/update/urn:li:activity:7093918007592169472/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "601ea8bb-cc40-4251-81d5-866feda5946a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "effa5a37-6191-48ae-970a-0a0b3d2714ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.update-components-actor__description > span:nth-child(1)",
+      "targets": [
+        ["css=.update-components-actor__description > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember32']/div/div[2]/a/div[3]/span[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae27e1d3-a272-459e-bd2b-4b15dc1e05e7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.update-components-actor__description > span:nth-child(1)",
+      "targets": [
+        ["css=.update-components-actor__description > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember32']/div/div[2]/a/div[3]/span[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74306fad-de95-4849-b235-983e8a2e989d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember97 > .comment-options-dropdown__trigger-icon",
+      "targets": [
+        ["css=#ember97 > .comment-options-dropdown__trigger-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cd47cbd-0973-4ee3-9b83-3cafc37b81ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember151 .t-bold",
+      "targets": [
+        ["css=#ember151 .t-bold", "css:finder"],
+        ["xpath=//div[@id='ember151']/span/div/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13f6e39f-3fea-410d-b22c-4f76cb5ef831",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ember171 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember171 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember171']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83a9503c-3aa7-4f9b-80f8-95dab94cbe01",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember171 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember171 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember171']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09d66897-23bb-4def-b77c-6def4054fa53",
+    "name": "Add a Skill",
+    "commands": [{
+      "id": "894d4ebc-f069-4466-95c6-cc5ab759ed06",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.linkedin.com/in/sudiptakumar/edit/forms/skills/new/?profileFormEntryPoint=PROFILE_SECTION",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9b5a017-da14-45d9-8b00-57ba4ae5003c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c3c030d-6fb1-4a9b-964e-9429cbdfaeb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name",
+      "targets": [
+        ["id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "id"],
+        ["css=#single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "css:finder"],
+        ["xpath=//input[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name']", "xpath:attributes"],
+        ["xpath=//div[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name-ta']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9dc59a5-58f6-4f0f-ad24-119e40fb9c3e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name",
+      "targets": [
+        ["id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "id"],
+        ["css=#single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "css:finder"],
+        ["xpath=//input[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name']", "xpath:attributes"],
+        ["xpath=//div[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name-ta']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "9edb68ba-ad21-4f05-b18a-b23f4ae14537",
+      "comment": "",
+      "command": "type",
+      "target": "id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name",
+      "targets": [
+        ["id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "id"],
+        ["css=#single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "css:finder"],
+        ["xpath=//input[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name']", "xpath:attributes"],
+        ["xpath=//div[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name-ta']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "R Programming language"
+    }, {
+      "id": "09673e07-ee9a-46ad-8ffe-1a1c0ab0f585",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name",
+      "targets": [
+        ["id=single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "id"],
+        ["css=#single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name", "css:finder"],
+        ["xpath=//input[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name']", "xpath:attributes"],
+        ["xpath=//div[@id='single-typeahead-entity-form-component-profileEditFormElement-SKILL-AND-ASSOCIATION-skill-ACoAAD9tUzQBczCigYsBCCN-V6oJC70ZLAOV0IU-1-name-ta']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1c415274-4886-4e74-b1a6-99ea12944001",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember253",
+      "targets": [
+        ["id=ember253", "id"],
+        ["css=#ember253", "css:finder"],
+        ["xpath=//button[@id='ember253']", "xpath:attributes"],
+        ["xpath=//div[@id='ember252']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58520fe7-b7e2-4d68-958d-d98c9d3be87c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember253",
+      "targets": [
+        ["id=ember253", "id"],
+        ["css=#ember253", "css:finder"],
+        ["xpath=//button[@id='ember253']", "xpath:attributes"],
+        ["xpath=//div[@id='ember252']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96966975-c5a3-41bb-880f-04645242ad21",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember253",
+      "targets": [
+        ["id=ember253", "id"],
+        ["css=#ember253", "css:finder"],
+        ["xpath=//button[@id='ember253']", "xpath:attributes"],
+        ["xpath=//div[@id='ember252']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Saving')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fc655463-37f7-44fe-9f89-c4dda6ebd245",
+    "name": "Notification Delete",
+    "commands": [{
+      "id": "2972d418-8c14-487e-af14-aafc56ad74e8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.linkedin.com/notifications/?filter=all",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6ea368c-0738-4fbd-8ac1-e7d810103ed0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70f1859d-55fd-459d-8fd5-5b139c30d40e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-nav__primary-link--active path",
+      "targets": [
+        ["css=.global-nav__primary-link--active path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d486b03b-7216-465d-bd60-500930d8ead3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember315 > .nt-card-settings-dropdown__trigger-icon",
+      "targets": [
+        ["css=#ember315 > .nt-card-settings-dropdown__trigger-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "735d6e15-7cbc-4006-9277-50133a042108",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember141 > .nt-card-settings-dropdown__trigger-icon",
+      "targets": [
+        ["css=#ember141 > .nt-card-settings-dropdown__trigger-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d438b1-80e4-4555-8a3b-4a7505d62d19",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember143 .nt-card-settings-dropdown-item__headline",
+      "targets": [
+        ["css=#ember143 .nt-card-settings-dropdown-item__headline", "css:finder"],
+        ["xpath=//div[@id='ember143']/button/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/article/div[3]/div/div/div/div/div/button/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b725b5ae-b345-49a6-8005-94f8c0954811",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember317 .nt-card-settings-dropdown-item__headline",
+      "targets": [
+        ["css=#ember317 .nt-card-settings-dropdown-item__headline", "css:finder"],
+        ["xpath=//div[@id='ember317']/button/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/article/div[3]/div/div/div/div/div/button/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "48377d3a-14a7-4e1d-adb0-1e04a221d4fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.linkedin.com/", "https://www.linkedin.com/in/aamir-mz/", "https://www.linkedin.com/in/sudiptakumar/recent-activity/all/", "https://www.linkedin.com/feed/update/urn:li:activity:7093918007592169472/", "https://www.linkedin.com/in/sudiptakumar/", "https://www.linkedin.com/groups/", "https://www.linkedin.com/feed/update/urn:li:activity:7099288195653148672/?originTrackingId=NJrdqsbgTau5ms4yCVTRzw%3D%3D", "https://www.linkedin.com/feed/update/urn:li:activity:7100827947711832065/", "https://www.linkedin.com/feed/", "https://www.linkedin.com/groups/14304498/manage/membership/requested/", "https://www.linkedin.com/groups/14304498/manage/membership/members/", "https://www.linkedin.com/in/sazib-ahmed/", "https://www.linkedin.com/in/sazib-ahmed/recent-activity/all/"],
+  "plugins": []
+}
