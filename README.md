@@ -185,10 +185,24 @@ This repository contains **Selenium IDE test projects** for LinkedIn user flows.
   >  These flows may require credentials. Use test accounts and avoid recording secrets.
 </section>
 
-<section id="-run-from-cli-selenium-side-runner">
-  ## 🧑‍💻 Run from CLI (selenium-side-runner)
-  > CLI is useful for repeatable runs and CI pipelines.
+<!-- Replace your section with this (renders a quote-style block on GitHub) -->
+<section id="-run-from-cli-selenium-side-runner" style="font-family: ui-sans-serif, system-ui, 'Segoe UI', Roboto;">
+  <h2 style="margin:0 0 8px; font-size:22px; color:#111827;">🧑‍💻 Run from CLI (selenium-side-runner)</h2>
+  <blockquote style="
+      margin:8px 0 0;
+      padding:10px 12px;
+      border-left:4px solid #9ca3af;
+      background:#f9fafb;
+      color:#111827;
+      border-radius:6px;
+    ">
+    CLI is useful for repeatable runs and CI pipelines.
+  </blockquote>
 </section>
+
+
+  
+  
   ##### Install Node & Runner
 
   ```bash
@@ -232,7 +246,7 @@ This repository contains **Selenium IDE test projects** for LinkedIn user flows.
 
   <p style="margin:0 0 10px; color:#374151;">For provenance and large-file verification:</p>
 
-  <table class="tbl">
+  <table align="center" class="tbl">
     <thead>
       <tr>
         <th style="width:48%;">File</th>
