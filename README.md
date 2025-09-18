@@ -45,11 +45,15 @@ This repository contains **Selenium IDE test projects** for LinkedIn user flows.
 ## 📂 Repository Structure
 
 ```text
-LinkedIn_Testing/
-├─ Linkedin.side                  # master suite (34 tests; 1 suite)
-├─ Linkedin - Sudipta.side        # focused suite (23 tests; 1 suite)
-├─ Linkedin - Shuvro.side         # focused suite (11 tests; 1 suite)
-└─ SQT Project LInkedin.pdf       # report/document (13.7 MB)
+|-- 📁 Selenium Automation
+|   |-- 📄 Linkedin.side
+|   |-- 📄 Linkedin - Sudipta.side
+|   |-- 📄 Linkedin - Shuvro.side
+|-- 📁 Report
+|   |-- 📄 SQT Project LInkedin.pdf
+|-- 📄 README.md
+|-- 📄 LICENSE
+|-- 📄 CITATION.cff
 ```
 
 <!-- ====== Scenarios Covered (HTML+CSS inline; GitHub-compatible) ====== -->
