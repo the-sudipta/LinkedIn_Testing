@@ -68,14 +68,6 @@ This repository contains **Selenium IDE test projects** for LinkedIn user flows.
 
   <p style="margin:0 0 8px; color:#374151;">The test sets include (non-exhaustive):</p>
 
-  <!-- Small pill style for each test name -->
-  <style>
-    /* GitHub allows scoped inline <style>; keep it tiny */
-    .pill { display:inline-block; padding:3px 8px; margin:2px 6px 2px 0; border-radius:999px; font-size:12px; background:#1118270d; border:1px solid #e5e7eb; color:#111827; }
-    .cat { font-weight:600; color:#111827; }
-    .row { margin:8px 0 10px 0; }
-  </style>
-
   <!-- Authentication -->
   <div class="row">
     <span class="cat">• Authentication:</span>
@@ -156,43 +148,36 @@ This repository contains **Selenium IDE test projects** for LinkedIn user flows.
     <h2 style="margin:0; font-size:22px; color:#111827;">Run in Selenium IDE (GUI)</h2>
   </div>
 
-  <!-- Steps -->
-  <style>
-    .stepbox {display:flex; gap:10px; margin:10px 0; padding:10px 12px; border-radius:10px; border:1px solid #e5e7eb; background:#fafafa;}
-    .badge  {min-width:30px; height:24px; padding:0 8px; border-radius:999px; display:inline-flex; align-items:center; justify-content:center; font-weight:700; font-size:12px; color:#111827; background:#FB923C22; border:1px solid #FB923C;}
-    .label  {font-weight:700; color:#111827; margin-right:4px;}
-    .note   {margin-top:12px; padding:10px 12px; border-radius:10px; background:#0b1220; color:#e5e7eb; border:1px solid #1f2a44;}
-    .linkrow {margin:6px 0 0 0;}
-  </style>
+
 
   <div class="stepbox">
-    <span class="badge">1</span>
+    1. Install the <b>Selenium IDE</b> browser extension
     <div>
-      <span class="label">Install</span> the <b>Selenium IDE</b> browser extension
+      <span class="label">
       <div class="linkrow">• Chrome: <a href="https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd">Web Store</a></div>
       <div class="linkrow">• Firefox: <a href="https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/">Add-ons</a></div>
     </div>
   </div>
 
   <div class="stepbox">
-    <span class="badge">2</span>
+    2. Open Selenium IDE</span> → <b>Open an existing project</b> → choose one of:<br/>
     <div>
-      <span class="label">Open Selenium IDE</span> → <b>Open an existing project</b> → choose one of:<br/>
+      <span class="label">
       <code>Linkedin.side</code> · <code>Linkedin - Sudipta.side</code> · <code>Linkedin - Shuvro.side</code>
     </div>
   </div>
 
   <div class="stepbox">
-    <span class="badge">3</span>
+    3. Configure Base URL</span> if prompted (each file already contains a default LinkedIn URL)
     <div>
-      <span class="label">Configure Base URL</span> if prompted (each file already contains a default LinkedIn URL).
+      <span class="label">
     </div>
   </div>
 
   <div class="stepbox">
-    <span class="badge">4</span>
+    4. Run</span> Click the <b>Play</b> button to run the whole suite or individual tests.
     <div>
-      <span class="label">Run</span> Click the <b>Play</b> button to run the whole suite or individual tests.
+      <span class="label">
     </div>
   </div>
 
@@ -200,9 +185,10 @@ This repository contains **Selenium IDE test projects** for LinkedIn user flows.
   >  These flows may require credentials. Use test accounts and avoid recording secrets.
 </section>
 
-  #### 🧑‍💻 Run from CLI (selenium-side-runner)
+<section id="-run-from-cli-selenium-side-runner">
+  ## 🧑‍💻 Run from CLI (selenium-side-runner)
   > CLI is useful for repeatable runs and CI pipelines.
-  
+</section>
   ##### Install Node & Runner
 
   ```bash
@@ -245,15 +231,6 @@ This repository contains **Selenium IDE test projects** for LinkedIn user flows.
   </div>
 
   <p style="margin:0 0 10px; color:#374151;">For provenance and large-file verification:</p>
-
-  <!-- Minimal table styling -->
-  <style>
-    .tbl { width:100%; border-collapse: collapse; margin:0 0 10px 0; }
-    .tbl th, .tbl td { border:1px solid #e5e7eb; padding:8px 10px; font-size:14px; }
-    .tbl th { background:#f9fafb; text-align:left; color:#111827; }
-    .pill-gray { display:inline-block; background:#1118270d; border:1px solid #e5e7eb; color:#111827; padding:2px 8px; border-radius:999px; font-size:12px; }
-    .hash { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-  </style>
 
   <table class="tbl">
     <thead>
