@@ -1,0 +1,76 @@
+# CITATION.cff for LinkedIn_Testing
+# Save as: CITATION.cff  (UTF-8, LF)
+
+cff-version: 1.2.0
+message: >-
+  If you use this repository in your work or demos, please cite it using
+  the metadata below. Thank you!
+
+title: "LinkedIn Testing — Selenium IDE (.side) Suite"
+abstract: >-
+  A curated set of Selenium IDE (.side) projects covering core LinkedIn flows:
+  authentication, people/network actions, groups administration, posting &
+  interactions, notifications, and video UX. Includes a large PDF report and
+  guidance for GUI runs (Selenium IDE) and CLI automation (selenium-side-runner).
+type: software
+license: MIT
+version: "2025.09.18"
+date-released: "2025-09-18"
+repository-code: "https://github.com/the-sudipta/LinkedIn_Testing"
+url: "https://github.com/the-sudipta/LinkedIn_Testing"
+keywords:
+  - Selenium IDE
+  - .side
+  - UI testing
+  - End-to-end testing
+  - LinkedIn automation
+  - QA engineering
+  - Test automation
+  - selenium-side-runner
+  - Chrome
+  - Firefox
+  - CI/CD
+
+authors:
+  - family-names: "Das"
+    given-names: "Sudipta Kumar"
+    orcid: "https://orcid.org/0009-0000-7521-776"
+    email: "sudiptakumar.aiub@gmail.com"
+    website: "https://sudiptakumar.site/"
+    affiliation: "AIUB (BSc CSE); PMSCS, Jahangirnagar University"
+    identifiers:
+      - scheme: "GitHub"
+        value: "https://github.com/the-sudipta"
+      - scheme: "LinkedIn"
+        value: "https://www.linkedin.com/in/sudiptakumar/"
+
+preferred-citation:
+  type: software
+  title: "LinkedIn Testing — Selenium IDE (.side) Suite"
+  version: "2025.09.18"
+  date-released: "2025-09-18"
+  url: "https://github.com/the-sudipta/LinkedIn_Testing"
+  repository-code: "https://github.com/the-sudipta/LinkedIn_Testing"
+  license: MIT
+  authors:
+    - family-names: "Das"
+      given-names: "Sudipta Kumar"
+      orcid: "https://orcid.org/0009-0000-7521-776"
+
+# Optional references (helpful anchors to key artifacts)
+references:
+  - type: software
+    title: "Selenium IDE projects (.side)"
+    url: "https://github.com/the-sudipta/LinkedIn_Testing"
+    notes: "Open in Selenium IDE or run via selenium-side-runner."
+  - type: generic
+    title: "SQT Project LinkedIn (PDF Report)"
+    url: "https://github.com/the-sudipta/LinkedIn_Testing"
+
+# Contact (optional)
+contact:
+  - name: "Sudipta Kumar Das"
+    email: "sudiptakumar.aiub@gmail.com"
+    url: "https://sudiptakumar.site/"
+
+# End of CITATION.cff
